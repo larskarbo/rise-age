@@ -16,6 +16,8 @@ function App() {
           flexDirection: "column",
           // justifyContent: "center"
           maxWidth: 650,
+          width: "calc(100% - 50px)",
+          margin: 0,
           padding: "0px 25px",
           color: "white",
           fontFamily: "Roboto Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace",
@@ -42,7 +44,9 @@ function App() {
         <div style={{padding: 10}}></div>
 
         <img src={img} style={{
-          width:400
+          width:"100%",
+          maxWidth:400,
+          height: "auto"
         }} />
         <div style={{padding: 20}}></div>
 

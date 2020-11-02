@@ -1,11 +1,16 @@
-
 @keyframes yo {
-  0%   { transform: translateY(15px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(15px);
+    /* background: #c27500; */
+  }
+  100% {
+    transform: translateY(0px);
+    /* background: #C2A300; */
+  }
 }
 
 .anim {
-  animation: yo 20s forwards
+  animation: yo 20s forwards;
 }
 
 p {
