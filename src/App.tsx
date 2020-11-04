@@ -49,7 +49,7 @@ function App() {
           }}
         />
         <p>Nøkkelord: mental trening, røykeslutt, selvbilde, søvn.</p>
-        <p>Ta kontakt med oss: mail@riseage.no</p>
+        <p>Ta kontakt med oss: +47 97082750</p>
 
         <div style={{ padding: 10 }}></div>
 
