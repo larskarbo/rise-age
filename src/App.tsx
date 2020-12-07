@@ -7,72 +7,38 @@ import "./App.css";
 function App() {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-      }}
+      className="flex justify-center"
     >
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          // justifyContent: "center"
-          maxWidth: 650,
-          width: "calc(100% - 50px)",
-          margin: 0,
-          padding: "0px 25px",
-          color: "white",
-          fontFamily:
-            "Roboto Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace",
-          fontWeight: 300,
-        }}
+        className="flex flex-col text-white max-w-xl pt-20"
       >
-        <div style={{ padding: 50 }}></div>
         <h1
-          style={{
-            fontWeight: 600,
-            // textTransform: "uppercase",
-            // fontFamily: "-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif"
-          }}
+          className="text-4xl uppercase font-bold"
         >
           Rise Age
         </h1>
-        <p>
-          New <strong>performance oriented</strong> clinic coming soon to Oslo.
-          Helping individuals reach their maximum potential through{" "}
-          <strong>mental training</strong>.
+        <div className="uppercase pb-10 font-extralight text-xl">Hypnosis therapy</div>
+
+        <p className="font-light pb-10">
+          Rise Age is a hypnotherapy clinic specializing in:
+
+          <ul className="list-disc list-inside pl-2">
+            <li>addictions (smoking, alcohol)</li>
+            <li>weight loss</li>
+            <li>motivation & performance</li>
+          </ul>
         </p>
 
-        <hr
-          style={{
-            width: "100%",
-          }}
-        />
-        <p>Nøkkelord: mental trening, røykeslutt, selvbilde, søvn.</p>
-        <p>Ta kontakt med oss: +47 97082750</p>
-
-        <div style={{ padding: 10 }}></div>
 
         <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-          }}
+          className="flex flex-row"
         >
           <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-            className="bio"
+            className="flex flex-col"
           >
             <img
               src={julie}
-              style={{
-                width: "100%",
-                maxWidth: 200,
-                height: "auto",
-              }}
+              className="w-80 mb-3"
             />
             <div>
               <strong>Julie Kamp</strong>
@@ -80,19 +46,11 @@ function App() {
             <div>Kommende hypnoterapeut</div>
           </div>
           <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-            className="bio"
+            className="flex flex-col ml-20"
           >
             <img
               src={lars}
-              style={{
-                width: "100%",
-                maxWidth: 200,
-                height: "auto",
-              }}
+              className="w-80 mb-3"
             />
             <div>
               <strong>Lars Karbø</strong>
@@ -103,11 +61,7 @@ function App() {
         <div style={{ padding: 20 }}></div>
 
         <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-          }}
-          className="anim"
+          className="flex justify-center anim"
         >
           <div
             style={{
@@ -132,7 +86,7 @@ function App() {
           style={{
             paddingBottom: 50,
             paddingTop: 5,
-            background: "black",
+            background: "#171E24",
             zIndex: 10,
           }}
         >
